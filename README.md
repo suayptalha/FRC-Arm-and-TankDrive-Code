@@ -1,2 +1,2 @@
 # FRC-Arm-and-TankDrive-Code
- Arm and tank drive code for FRC.
+ Example arm and tank drive code for FRC.
