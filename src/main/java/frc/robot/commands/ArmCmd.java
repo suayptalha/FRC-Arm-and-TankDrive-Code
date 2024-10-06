@@ -35,6 +35,6 @@ public class ArmCmd extends Command {
 
   @Override
   public boolean isFinished() {
-    return Math.abs(targetAngle - arm.getCurrentAngle()) < 2.0;
+    return Math.abs(targetAngle - arm.getCurrentAngle()) < 1.0;
   }
 }
