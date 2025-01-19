@@ -11,9 +11,9 @@ import frc.robot.Constants.DriveTrainConstants;
 
 public class DriveTrain extends SubsystemBase {
   private Spark motorLeft1 = new Spark(DriveTrainConstants.MOTOR_LEFT_1);
-  private Spark motorLeft2 = new Spark(DriveTrainConstants.MOTOR_LEFT_1);
-  private Spark motorRight1 = new Spark(DriveTrainConstants.MOTOR_LEFT_1);
-  private Spark motorRight2 = new Spark(DriveTrainConstants.MOTOR_LEFT_1);
+  private Spark motorLeft2 = new Spark(DriveTrainConstants.MOTOR_LEFT_2);
+  private Spark motorRight1 = new Spark(DriveTrainConstants.MOTOR_RIGHT_1);
+  private Spark motorRight2 = new Spark(DriveTrainConstants.MOTOR_RIGHT_2);
 
 
   public void turnLeftMotors (double speed) {
